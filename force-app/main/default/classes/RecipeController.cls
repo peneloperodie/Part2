@@ -46,4 +46,12 @@ public inherited sharing class RecipeController {
             LIMIT 50
         ];
     }
+
+    @AuraEnabled
+public static List < Ingredient__c > generateGroceryList(ID recipeId){
+    //get rid of all of this once you have the actual method!
+    List <Ingredient__c> ingredients = new List <Ingredient__c>();
+    return ingredients;
+}
+
 }
